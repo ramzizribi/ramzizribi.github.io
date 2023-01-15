@@ -1,0 +1,127 @@
+header{
+    width: 100%;
+    padding: 15px 0px;
+    background: #4f4f4f;
+    
+}
+header{
+    border-bottom: 0px solid #fff;
+    height: 80px;
+    
+}
+body{
+    background-color:white;
+    font-family: Avenir,sans-serif;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Avenir,sans-serif;
+   
+}
+#voley{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#volley{
+    background-color:#4f4f4f;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 130px;
+    font-family: Avenir,sans-serif;
+}
+#karim{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#karimm{
+    background-color:#4f4f4f;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Avenir,sans-serif;
+}
+#hamdi{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#hamdii{
+    background-color:#4f4f4f;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Avenir,sans-serif;
+}
+#ali{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#alii{
+    background-color:#4f4f4f;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Avenir,sans-serif;
+}
+#amir{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#amirr{
+    background-color:#4f4f4f;
+    width: 240px;
+    height: 270px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 100px;
+    font-family: Avenir,sans-serif;
+}
+H3{
+    
+    margin-top: -10px;
+    font-size: 20px;
+    color: #fff;
+    font-family: Avenir,sans-serif;
+    text-align: center;
+    
+}
+ul{
+    margin-left: 250px;
+    color: #fff;
+    font-family: Avenir,sans-serif;
+}
+li{
+    color: #fff;
+    font-family: Avenir,sans-serif;
+}

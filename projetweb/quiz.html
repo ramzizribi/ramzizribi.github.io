@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quizz App</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="start">Démarrer le Quiz</div>
+
+        <div id="guide">
+            <h2>Guide du quiz</h2>
+            <h4>1. Vous n'avez que 20 secondes pour chaque question.</h4>
+            <h4>2. Une fois que vous avez sélectionné votre réponse, elle ne peut pas être annulée.</h4>
+            <h4>3.Vous obtiendrez des points sur la base de vos réponses correctes.</h4>
+            <h4>4. Vous ne pouvez pas quitter le quiz pendant que vous jouez.</h4>
+            <div id="button">
+                <button id="exit">Sortir</button>
+                <button id="continue">Continuer</button>
+            </div>
+        </div>
+
+        
+        <div id="quiz">
+            <div id="quiz_header">
+                <h5>Application de quiz incroyable</h5>
+                <div id="timer">
+                    <h6>Temps restant</h6>
+                    <h6 id="time">00</h6>
+                </div>
+            </div>
+            <div id="question">
+                <h2 id="questionNo"></h2>
+                <h2 id="questionText"></h2>
+            </div>
+
+            
+            <div id="optionList">
+                <h4 class="choice_que" id="option1"></h4>
+                <h4 class="choice_que" id="option2"></h4>
+                <h4 class="choice_que" id="option3"></h4>
+                <h4 class="choice_que" id="option4"></h4>
+            </div>
+
+            
+            <div id="answersSection">
+                <h3 id="total_correct">3 questions sur 10</h3>
+                <h3 id="next_question">Suivant</h3>
+            </div>
+        </div>
+        
+        <div id="result">
+            <i class="fas fa-trophy"></i>
+            <h6>Vous avez terminé le quiz</h6>
+            <h6 id="points">Vous avez 4 sur 10</h6>
+            <button id="quit">quitter le quiz</button>
+            <button id="startAgain">Recommencer</button>
+        </div>
+    </div>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+    <a href="paged'acceuil.html"><img src="images/home.jpg" height="75px"width="80px"> </a>
+</body>
+
+</html>

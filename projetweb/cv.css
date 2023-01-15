@@ -1,0 +1,242 @@
+*{
+    font-family: Avenir,sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: justify;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+}
+p{
+    font-size: 1em;
+    line-height: 1.5em;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header{
+    width: 100%;
+    padding: 20px 0px;
+    background: #4f4f4f;
+    box-shadow: 0px 0px 15 px #333;
+}
+header{
+    height: 100px;
+    
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+section{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    background-color:#fff;
+    
+}
+
+section h2{
+    margin: 30px 0;
+    width: 90%;
+
+    
+
+}
+section h3{
+    margin: 0px 0;
+    width: 70%; 
+
+}
+section > div{
+    width: 90%;
+}
+.photo{
+    text-align: center;
+}
+.photo img{
+    width: 200px;
+    height: 200px;
+    border:3px solid #fff;
+    box-shadow: 0px 0px 10px #777;
+    border-radius: 60%;
+   
+
+}
+.prez{
+    border-bottom: 3px dashed #ccc;
+    
+}
+.pre a{
+    
+    
+    padding: 7px;
+    margin: 30px 30px 10px 10px;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 0px 0px 30px #ccc;
+    border-radius: 10px;
+    
+
+}
+
+   
+    
+
+.contract-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    
+}
+.contract-flex p:first-child{
+    flex: 0 0 40%;
+}
+.contract-flex p:last-child{
+     flex: 0 0 60%;
+}
+.social{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px auto 0px auto;
+
+}
+.social img{
+    width: 50px;
+    height: 50px;
+}
+.exp{
+    display: flex;
+    flex-flow: row wrap;
+    border-bottom: 1px solid #bbb;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.exp-info{
+    display: flex;
+    flex-flow: column wrap;
+}
+.exp-logo{
+    flex: 0 0 25%;
+    max-width: 100px;
+}
+.exp-info{
+    flex: 0 0 70%;
+    margin-left: auto;
+}
+.exp img{
+    width: 100%;
+}
+.exp h3{
+    font-size: 1.2em;
+}
+.exp h4{
+    font-size: 1em;
+    
+}
+.comp{
+    display: flex;
+    flex-flow: row wrap;
+    margin-bottom: 10px;
+}
+.comp p{
+    flex: 0 0 40%;
+}
+.conteneur-barre{
+    flex: 0 0 60%;
+    border-radius: 5px;
+    background-color:gray;
+    border-bottom:1 px ridge grey ;
+}
+.barre{
+    display: block;
+    height: 100%;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.c90{
+    width: 90%;
+    background-color: #333;
+}
+.c80{
+    width: 80%;
+    background-color: #333;
+}
+.c100{
+    width: 100%;
+    background-color: #333;
+    border-radius: 5px;
+}
+.c95{
+    width: 95%;
+    background-color: #333;
+}
+.c70{
+    width: 70%;
+    background-color: #333;
+}
+.comp2{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.conteneur-barre2{
+    flex:0 0 100%;
+    height: 0.5em;
+    margin-bottom: 0.25em;
+    border-radius: 5px;
+    
+}
+
+
+    
+
+
+    section{
+        width: 100%;  
+    }
+
+    header h1{
+        width: 80%; 
+    }
+    .prez, .contract{
+        flex: 0 0 95%;
+    }
+    .prez{
+        border-bottom:none;
+        border-right: 2px solid #ccc;
+        padding-right:20px;
+        margin-left:auto;
+    }
+    .contract{
+        padding-left:20px;
+        margin-right: auto;
+    }
+    .prez a{
+        border: 2px solid transparent;
+    }
+    .prez a:hover{
+        
+        background-color: #fff;
+        
+        box-shadow: 0px 0px 20px #666;
+    }
+    .exp-logo{
+        flex: 0 0 10%;
+    }
+    .exp-info, .exp-desc{
+        flex: 0 0 85%;
+        margin-left: auto;
+    }
+
+

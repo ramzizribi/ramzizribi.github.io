@@ -1,0 +1,57 @@
+header{
+    width: 100%;
+    padding: 15px 0px;
+    background: #4f4f4f;
+    
+}
+header{
+    border-bottom: 0px solid #fff;
+    height: 80px;
+    
+}
+body{
+    background-color:white;
+    font-family: Avenir,sans-serif;
+}
+header h1{
+    color: white;
+    font-size: 40px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Avenir,sans-serif;
+   
+}
+#voley{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+#volley{
+    background-color:#4f4f4f;
+    width: 900px;
+    height: 220px;
+    border-radius: 5%;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-family: Avenir,sans-serif;
+}
+H3{
+    margin-left: 300px;
+    margin-top: -200px;
+    font-size: 30px;
+    color: #fff;
+    font-family: Avenir,sans-serif;
+}
+ul{
+    margin-left: 250px;
+    color: #fff;
+    font-family: Avenir,sans-serif;
+}
+li{
+    color: #fff;
+    font-family: Avenir,sans-serif;
+}
